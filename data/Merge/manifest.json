@@ -1,0 +1,23 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-03-31-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-04-30-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-05-31-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-06-30-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-07-31-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-08-31-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-09-30-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-10-31-2021.csv",
+                "s3://cs6620-final-project-data/Merge/vaccinations-and-deaths-11-30-2021.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "'",
+        "containsHeader": "true"
+    }
+}
