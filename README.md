@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is main focus on exploring the relationship between Covid-19 vaccinations and deaths attributed to Covid-19 in the U.S. between 03/01/21 - 11/30/21 to analyze the effectiveness of the Covid-19 vaccination over time. 
+This project is main focus on exploring the relationship between Covid-19 vaccinations and deaths attributed to Covid-19 in the U.S. between 03/01/21 - 11/30/21 to visualize the Covid-19 vaccination over time. 
 
 And using Covid-19 vaccination data to learn how to store data in AWS S3 bucket and visualize data by AWS QuickSight.
 
@@ -47,18 +47,34 @@ Once I have done processing the data, I have uploaded all the csv files into AWS
 
 ## Output
 There are 9 screenshots shown the Deaths group by state level:
+
+*03/01/2021-03/31/2021*
 ![](image/Deaths_by_state_03-31-2021.png)
+*03/01/2021-04/30/2021*
 ![](image/Deaths_by_state_04-30-2021.png)
+*03/01/2021-05/31/2021*
 ![](image/Deaths_by_state_05-31-2021.png)
+*03/01/2021-06/30/2021*
 ![](image/Deaths_by_state_06-30-2021.png)
+*03/01/2021-07/31/2021*
 ![](image/Deaths_by_state_07-31-2021.png)
+*03/01/2021-08/31/2021*
 ![](image/Deaths_by_state_08-31-2021.png)
+*03/01/2021-09/30/2021*
 ![](image/Deaths_by_state_09-30-2021.png)
+*03/01/2021-10/31/2021*
 ![](image/Deaths_by_state_10-31-2021.png)
+*03/01/2021-11/30/2021*
 ![](image/Deaths_by_state_11-30-2021.png)
+
+## Insights
+
+* According to the above graphs, from 03/01/2021 to 08/31/2021, CA, TX, NY, and FL are keep staying top 4 most death cases.
+* From 08/01/2021, GA came to top 4 list.
+* Until 11/30/2021, TX cross CA become the top 1 most death cases and keep serious.
 
 ## Future Considerations
 
-**Dataset**  
+**For Dataset**  
   * Compare different regions with similar population sizes 
   * Compare individual areas with higher vaccination rates against similar areas with lower vaccination rates
